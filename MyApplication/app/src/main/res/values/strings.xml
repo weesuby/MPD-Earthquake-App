@@ -1,0 +1,10 @@
+<!--
+Name: Subhaan Saleem     Matriculation Number: S1708061
+
+Google Maps API key and App Name
+-->
+<resources>
+    <string name="google_maps_API_key">AIzaSyDA63KiAM2VU3UR_ZnLo1Nu1qD8y3Itlj8</string>
+
+    <string name="app_name">EARTHQUAKE APP - S1708061</string>
+</resources>

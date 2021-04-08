@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/salutation"
+        android:layout_width="738dp"
+        android:layout_height="31dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Welcome To The Earthquake App!"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="302dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="13dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Search via range of dates"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salutation"
+        app:rippleColor="@color/_light_green" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="302dp"
+        android:layout_height="87dp"
+        android:layout_marginEnd="13dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Earthquake Map"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Search"
+        app:rippleColor="@color/_light_green" />
+
+    <TextView
+        android:id="@+id/acknowledgement"
+        android:layout_width="305dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="13dp"
+        android:fontFamily="@font/montserrat"
+        android:text="*Contains British Geological Survey materials ©NERC 2019"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.997"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapButton" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="472dp"
+        android:layout_height="353dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/salutation"
+        app:layout_constraintVertical_bias="0.74">
+
+        <LinearLayout
+            android:id="@+id/showData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

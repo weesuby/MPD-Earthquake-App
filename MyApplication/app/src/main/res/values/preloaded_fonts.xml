@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: Subhaan Saleem     Matriculation Number: S1708061
+-->
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/montserrat</item>
+    </array>
+</resources>

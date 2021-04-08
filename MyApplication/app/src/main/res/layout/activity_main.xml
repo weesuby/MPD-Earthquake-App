@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Name: Subhaan Saleem     Matriculation Number: S1708061
+-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/salutation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/montserrat"
+        android:text="Welcome To The Earthquake App!"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Search via range of dates"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="bold"
+        app:rippleColor="@color/_light_green" />
+
+    <Button
+        android:id="@+id/mapButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="Earthquake Map"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="bold"
+        app:rippleColor="@color/_light_green" />
+
+    <TextView
+        android:id="@+id/acknowledgement"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text="*Contains British Geological Survey materials ©NERC 2019"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/showData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical" />
+    </ScrollView>
+
+</LinearLayout>
+
